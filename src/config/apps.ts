@@ -6,15 +6,15 @@ import music from '../assets/images/apps/music.png'
 
 import typeofnan from '../assets/images/apps/typeofnan.png'
 import visualEditing from '../assets/images/apps/visual-editing.png'
-import blogfish from '../assets/images/apps/blogfish.png'
-import dotnetcore from '../assets/images/apps/dotnetcore.png'
+import blogFish from '../assets/images/apps/blog-fish.png'
+import dotnetCore from '../assets/images/apps/dotnet-core.png'
 
 import hot from '../assets/images/apps/hot.png'
 import nestService from '../assets/images/apps/nest-service.png'
 import ice from '../assets/images/apps/ice.png'
 
 import vueRipples from '../assets/images/apps/vue-ripples.png'
-import oscli from '../assets/images/apps/oscli.png'
+import osCli from '../assets/images/apps/os-cli.png'
 import devtool from '../assets/images/apps/devtool.png'
 
 import waiting from '../assets/images/apps/waiting.png'
@@ -81,12 +81,12 @@ export const mainApps: Array<IAppPage> = [
         link: 'https://github.com/typeofNaN/visual-editing'
       },
       {
-        imgUrl: blogfish,
+        imgUrl: blogFish,
         name: 'Blog',
         link: 'https://github.com/typeofNaN/blog'
       },
       {
-        imgUrl: dotnetcore,
+        imgUrl: dotnetCore,
         name: '.NetCore社区',
         link: 'https://github.com/typeofNaN/ncc-china'
       }
@@ -121,7 +121,7 @@ export const mainApps: Array<IAppPage> = [
         link: 'https://github.com/typeofNaN/vue-ripples'
       },
       {
-        imgUrl: oscli,
+        imgUrl: osCli,
         name: 'OS CLI',
         link: 'https://github.com/typeofNaN/osinfo-cli'
       },

@@ -1,10 +1,10 @@
-#swipper_app {
+#swiper_app {
   position: relative;
   height: calc(100% - 140px);
   overflow: hidden;
   cursor: move;
 
-  .swipper_pages {
+  .swiper_pages {
     position: absolute;
     top: 0;
     left: 0;
@@ -13,7 +13,7 @@
     transition: .4s
   }
 
-  .swipper_dots {
+  .swiper_dots {
     position: absolute;
     bottom: 10px;
     left: 0;

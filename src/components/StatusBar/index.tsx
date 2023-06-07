@@ -13,7 +13,7 @@ interface IState {
 }
 
 export default class StatusBar extends Component<IProps, IState> {
-  private readonly statusIcon: Array<string> = ['singal', 'wifi', 'battery']
+  private readonly statusIcon: Array<string> = ['signal', 'wifi', 'battery']
 
   private timer: any = null
 

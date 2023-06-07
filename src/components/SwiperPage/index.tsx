@@ -11,13 +11,13 @@ interface IProps {
 
 interface IState { }
 
-export default class SwipperPage extends Component<IProps, IState> {
+export default class SwiperPage extends Component<IProps, IState> {
   render() {
     const { pageIdx, pageData } = this.props
     const { name, apps } = pageData
     return (
       <div
-        className="swipper_page"
+        className="swiper_page"
         style={{
           left: pageIdx * 100 + '%'
         }}

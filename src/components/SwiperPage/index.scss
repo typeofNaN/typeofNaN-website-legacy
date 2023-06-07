@@ -1,4 +1,4 @@
-.swipper_page {
+.swiper_page {
   position: absolute;
   top: 0;
   width: 100%;
@@ -8,7 +8,7 @@
     margin: 10px calc(12.5% - 30px);
     height: 120px;
     border-radius: 13.5px;
-    background-color: $opac_bg;
+    background-color: $opacity_bg;
     display: flex;
     justify-content: center;
     align-items: center;

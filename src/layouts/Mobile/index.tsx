@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 
 import StatusBar from '../../components/StatusBar'
-import SwipperApp from '../../components/SwipperApp'
+import SwiperApp from '../../components/SwiperApp'
 import BottomBar from '../../components/BottomBar'
 import ActionSheet from '../../components/ActionSheet'
 import './index.scss'
@@ -12,7 +12,7 @@ export default class Mobile extends Component {
       <>
         <div id="mobile">
           <StatusBar />
-          <SwipperApp />
+          <SwiperApp />
           <BottomBar />
           <ActionSheet />
         </div>

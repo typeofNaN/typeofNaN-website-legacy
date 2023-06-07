@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 
-import SwipperPage from '../SwipperPage'
+import SwiperPage from '../SwiperPage'
 import { mainApps, IAppPage } from '../../config/apps'
 import './index.scss'
 
@@ -13,7 +13,7 @@ interface IState {
   lastDownX: number
 }
 
-export default class SwipperApp extends Component<IProps, IState> {
+export default class SwiperApp extends Component<IProps, IState> {
   private readonly mainApps = mainApps
 
   constructor(props: IProps) {
@@ -87,9 +87,9 @@ export default class SwipperApp extends Component<IProps, IState> {
   render() {
     const { pageIdx } = this.state
     return (
-      <div id="swipper_app">
+      <div id="swiper_app">
         <div
-          className="swipper_pages"
+          className="swiper_pages"
           onMouseDown={this.mouseDown}
           onMouseMove={this.mouseMove}
           onMouseUp={this.mouseUp}
@@ -104,7 +104,7 @@ export default class SwipperApp extends Component<IProps, IState> {
           {
             this.mainApps.map((page: IAppPage, index: number) => {
               return (
-                <SwipperPage
+                <SwiperPage
                   pageData={page}
                   key={index}
                   pageIdx={index}
@@ -113,7 +113,7 @@ export default class SwipperApp extends Component<IProps, IState> {
             })
           }
         </div>
-        <div className="swipper_dots">
+        <div className="swiper_dots">
           {
             this.mainApps.map((page: IAppPage, index: number) => {
               return <i
